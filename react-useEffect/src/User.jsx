@@ -19,7 +19,8 @@ export const User = () => {
   }, []);
   console.log("messages data:", messages);
   return (
-    <div>
+      <div>
+          <h1>messages</h1>
       <table>
         <tr>
           <th>Id</th>
